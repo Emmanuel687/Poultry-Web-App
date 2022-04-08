@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AwwardsConfig(AppConfig):
+class AwardsConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'awwards'
+    name = 'awards'
