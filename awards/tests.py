@@ -1,5 +1,7 @@
 from django.test import TestCase
 from .models import Profile,Project,Rating
+import datetime as dt
+from django.contrib.auth.models import User
 
 # Create your tests here.
 class ProfileTestClass(TestCase):
@@ -8,3 +10,10 @@ class ProfileTestClass(TestCase):
 
     def test_instance(self):
         self.assertTrue(isinstance(self.profile, Profile))
+
+class ProjectTestClass(TestCase):
+    def setUp(self):
+        self.project = Project(title='pizza app', project_image='cloudlink.cloud', description='3D interpretation of a 4D object', link='tess.com', pub_date='2020', prof_ref='rendaProfile')
+
+    def test_instance(self):
+        self.assertTrue(isinstance(self.project, Project))
