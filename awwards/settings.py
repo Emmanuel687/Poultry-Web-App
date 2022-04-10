@@ -50,7 +50,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'awards.apps.AwardsConfig',
     'bootstrap3',
-    'tinymce'
+    'tinymce',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
