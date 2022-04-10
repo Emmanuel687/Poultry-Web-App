@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'awards.apps.AwardsConfig',
     'bootstrap4',
     'tinymce',
+    'cloudinary',
     'rest_framework',
     'crispy_forms',
 ]
