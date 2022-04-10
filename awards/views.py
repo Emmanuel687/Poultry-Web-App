@@ -1,6 +1,7 @@
 from django.shortcuts import render,redirect
 from django.http.response import Http404
-from .serializers import ProfileSerializer, ProjectSerializer
+# from .serializers import ProfileSerializer, ProjectSerializer
+from .serializer import ProfileSerializer,ProjectSerializer
 from rest_framework import generics
 
 from django.http  import HttpResponse
