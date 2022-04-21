@@ -1,16 +1,16 @@
 {%extends 'base.html'%} {% block content %} {{ block.super}}
 
-<div class="landing-page" style="background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://thumbs.dreamstime.com/b/business-team-to-calculate-financial-information-invest-new-projects-manager-meeting-euing-smart-phone-laptop-digital-167938232.jpg);height:96vh;background-size:cover;background-position:center">
+<div class="landing-page" style="background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.unsplash.com/photo-1556316918-880f9e893822?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=60);height:96vh;background-size:cover;background-position:center">
 
     <div class="text-white text-center pt-5 mt-3">
-        <h1 class="pt-5 mt-5 text-white ">MY PROJECTS</h1> <br> <br> <br>
-        <h5> The application will allow a user to post a project he/she has created and get it reviewed by his/her peers.</h5>   
-        <h5>To Proceed Scroll down to view a sample of my projects</h5>
+        <h1 class="pt-5 mt-5 text-white ">POULTRY FARMERS</h1> <br> <br> <br>
+        <h5> The application will allow a poultry farmers  post trending diseases incase of outbreaks,with preventions and symptoms</h5>   
+        <h5>To Proceed Scroll down For common diseases</h5>
         
     </div>
 </div>
 <div class="container-fluid pb-5" id="mainprojview">
-    <h2 class=" ml-5 pt-5 text-center underline">My Projects</h2>
+    <h2 class=" ml-5 pt-5 text-center underline">Diseases</h2>
     <div class="row">
         {% for project in projects %}
         <div class="col-lg-4 p-4">
@@ -20,9 +20,9 @@
                 <hr>
                 <h5 class="card-title pl-2 underline text-center"> {{project.title}}</h5>
                 <div class="card-body">
-                    <p class=""><strong>By:Emmanuel</strong> {{project.prof_ref.user.username}}</p>
-                    <p class="card-text"><strong>About:</strong> {{project.description|truncatechars:150}}</p>
-                    <a href="{% url 'project' project.id %}" class="card-link">View & Rate Project</a>
+                    <p class=""><strong>Farmer</strong> {{project.prof_ref.user.username}}</p>
+                    <p class="card-text"><strong>Disease</strong> {{project.description|truncatechars:150}}</p>
+                    <a href="{% url 'project' project.id %}" class="card-link">View & Rate Disease</a>
                 </div><br>
                 <div class="container-fluid">
                     <div class="row">
