@@ -4,26 +4,20 @@ Emmanuel Koech
 The application will allow a poultry farmers post trending diseases incase of outbreaks,with preventions and symptoms
 To Proceed Scroll down For common diseases
 ## Setup/Installation Requirements
-1.Clone the repository https://github.com/Emmanuel687/Awwards-Web-App.git
+1.Clone the repository
 2.Open Terminal Command line,Navigate to project folder.
 3.Cd to project.
 4.Run project using python3.8 manage.py runserver.
 
-## User Experience
-
-## Project Link
-https://github.com/Emmanuel687/Awwards-Web-App.git
 ## Prerequisities
 Create and activate Virtual env then install pip To install django -pip install django LTS Have basic git knowledge
 
 ## User Stories
 As User you will like to:
--Search for projects.
--Post a project to be rated/reviewed.
--Rate/review other users' projects.
--View posted projects and their details.
--View projects overall score
--View my profile page.
+-Search for Diseases.
+-Disease to be rated/reviewed.
+-View posted disease and their details.
+-View my farmers page.
 
 ## Contributing
 If you have a suggestion that would make this better, please fork the repo and create a pull request.
