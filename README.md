@@ -1,7 +1,8 @@
 ## Author
 Emmanuel Koech
 ## Description
-The application will allow a user to post a project he/she has created and get it reviewed by his/her peers.
+The application will allow a poultry farmers post trending diseases incase of outbreaks,with preventions and symptoms
+To Proceed Scroll down For common diseases
 ## Setup/Installation Requirements
 1.Clone the repository https://github.com/Emmanuel687/Awwards-Web-App.git
 2.Open Terminal Command line,Navigate to project folder.
